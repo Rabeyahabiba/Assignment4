@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Booking</title>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
@@ -13,10 +13,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
+
     <!--Header and Menu Section-->
     <section id="login-area">
         <header class="container">
@@ -52,7 +51,6 @@
                         <input class="inp-style" type="date" name="">
                     </div>
                 </div>
-
 
                 <!-- Ticket Section Start -->
              <div class="input-group f-class">
@@ -115,12 +113,12 @@
         </main>
     </section>
 
-
     <!-- 2nd page -->
     <div id="confirmation-area" class="submit-area">
         <h1 class="text-center"> Booking Done Successfully </h1>
         <h3 class="text-center"> Thanks For Being With Us! </h3>
     </div>
+         <!-- overall calculation -->
     <script>
         function handleTicketChange(ticket, isIncrease) {
             const ticketQuantity = getInputValue(ticket);
@@ -164,5 +162,6 @@
             confirmationArea.style.display = "block";
         })
     </script>
+         <!-- Thank You -->
 </body>
 </html>
